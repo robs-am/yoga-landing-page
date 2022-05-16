@@ -81,3 +81,10 @@ order: 0;
 flex-grow: 0;
 margin: 0px 16px;
 }
+
+.imgPrincipal {
+width: 326px;
+height: 326px;
+left: 32px;
+top: 474px;
+}
