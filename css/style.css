@@ -6,10 +6,11 @@
 
 :root {
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 62.5%;
     --primary-color: #00453A;
     --secondary-color: #fd8272;
+    --brand-beige: #FFFAF1;
 
 }
 
@@ -74,9 +75,9 @@ header {
 .signin {
     margin: 3rem;
     font-weight: 400;
-font-size: 14px;
-line-height: 150%;
-text-decoration: none;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: none;
 
 }
 
@@ -86,28 +87,34 @@ text-decoration: none;
 }
 
 .stats {
-    width: 327px;
-height: 470px;
-background: #FFFAF1;
+    padding-block: 4rem;
+    background: var(--brand-beige);
 /* Primary Colors/brand-green-light */
 
-border: 1px solid #DCE9E2;
-border-radius: 10px;
-margin-top: 2.8rem;
-margin-right: auto;
-margin-left: auto;
+    border: 1px solid #DCE9E2;
+    border-radius: 1.5rem;
+    
+    margin-inline: auto;
+   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .stat {
 font-style: normal;
+font-family: ;
 font-weight: 700;
 font-size: 4.8rem;
 line-height: 130%;
+padding-block: 3rem;
+box-sizing: border-box;
 /* or 62px */
 }
 
 .stat h3 {
-    margin-top: 4rem;
+    margin-top: 0rem;
 }
 
 .stat p {
