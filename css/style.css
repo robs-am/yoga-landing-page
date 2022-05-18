@@ -154,8 +154,6 @@ color: #00856F;
 
 nav {
     display: flex;
-    align-items:center;
-    justify-content: space-around;
     height: var(--nav-height);
 
     position: fixed;
@@ -164,7 +162,15 @@ nav {
     transform: translateX(-50%);
 }
 
+nav, .wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
 nav, .scroll {
     background-color: var(--primary-color);
+    width: 100vw;
 }
 
