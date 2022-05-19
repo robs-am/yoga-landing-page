@@ -162,15 +162,22 @@ nav {
     transform: translateX(-50%);
 }
 
-nav, .wrapper {
+nav.wrapper {
     display: flex;
     align-items:center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
-nav, .scroll {
+nav.scroll {
     background-color: var(--primary-color);
     width: 100vw;
 }
 
+
+
+nav.scroll svg:nth-child(2) path {
+    
+    fill: white;
+    
+}
