@@ -179,8 +179,10 @@ nav.scroll {
 
 
 
+
+
 nav.scroll svg:nth-child(2) path {
     
-    fill: white;
+    stroke: white;
     
 }
