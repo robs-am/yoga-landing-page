@@ -183,3 +183,7 @@ nav.scroll svg:nth-child(2) path {
     stroke: white;
     
 }
+
+.menu {
+    display: flex;
+}
