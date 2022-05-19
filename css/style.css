@@ -22,15 +22,24 @@
     
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     text-align: center;
+}
+
+ul {
+    list-style: none;
 }
 
 
 
 header::before {
     content: "";
-    width: 100vw;
+    width: 100%;
     height: 108rem;
     background-color: #DCE9E2;
     display: block;
@@ -184,6 +193,17 @@ nav.scroll svg:nth-child(2) path {
     
 }
 
-.menu {
-    display: flex;
+
+/* MENU EXPANDED */
+
+body.menu-expanded .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
+
+}
+
+body.menu-expanded nav {
+    position: relative;
 }
